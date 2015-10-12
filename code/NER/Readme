@@ -1,0 +1,11 @@
+#Read me
+
+Please check all functions under nlp and web.reader packages!
+Each of them has main function that show an example of how to use it.
+
+Several important functions
+web.reader/WebPageReader can extract an story article from a news webpage and transform it into XHTML and display.
+nlp/SentenceDetector can separate article into list of sentences.
+nlp/Tokenizer can separate sentence into list of tokens.
+
+Good Luck!
