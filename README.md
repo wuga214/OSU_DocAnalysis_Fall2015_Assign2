@@ -1,6 +1,9 @@
 # OSU_DocAnalysis_Fall2015_Assign2
 
-Step by Step instruction:
+<b>Submit your assignment on Canvas(if there is no further notice)</b><br />
+https://oregonstate.instructure.com/courses/1577985<br />
+
+Step by Step instruction:<br/>
 1. Install CRF++ in your computer.<br />
 2. Run CRF++ on given conll2002 data(see CRF++-0.58/doc/index.html to get more detail about commands)<br />
 3. Run Perl to evaluate classification and show the result.(how to use perl? see /DATA/how?.txt)<br />
