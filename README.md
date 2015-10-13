@@ -4,6 +4,7 @@
 https://oregonstate.instructure.com/courses/1577985<br />
 
 Step by Step instruction:<br/>
+===
 1. Install CRF++ in your computer.<br />
 2. Run CRF++ on given conll2002 data(see CRF++-0.58/doc/index.html to get more detail about commands)<br />
 3. Run Perl to evaluate classification and show the result.(how to use perl? see /DATA/how?.txt)<br />
