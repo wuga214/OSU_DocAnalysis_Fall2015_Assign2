@@ -5,18 +5,9 @@ https://oregonstate.instructure.com/courses/1577985<br />
 
 Step by Step instruction:<br/>
 ===
-1. Install CRF++ in your computer.<br />
-2. Run CRF++ on given conll2002 data(see CRF++-0.58/doc/index.html to get more detail about commands)<br />
-3. Run Perl to evaluate classification and show the result.(how to use perl? see /DATA/how?.txt)<br />
-4. Modify template file to improve performance<br />
-5. Import java code into Eclipse as exist project<br />
-6. run each function under nlp and web.reader packages to see how they work.<br />
-7. build main function to extract article from news webpage and transform it into CRF++ acceptable format<br />
-8. train a model and test it on extracted article, list all name entity recognized.<br />
-9. try to improve performance by adding new features in training and testing data.<br />
+Please see the assignment document ([INSERT POINTER/LINK HERE]) for full instructions on the lab and assignment and what specifically should be completed and submitted.  However, in brief, the lab and assignment tasks are as follows:<br/>
 
-<br />
+1. You will train a conditional random field (CRF) based named entity recognizer (NER) using CRF++ and CoNLL NER data, experiment with various features and model configurations, and comparatively evaluate results on test data.<br/>
 
-Have fun!<br />
--Wuga
+2. You will build a function to extract key text content from articles on a news webpage and transform it into the format for CRF++ labeling.  You will invoke CRF++ labeling on the extracted text using your trained model and list all NERS found, one per line.<br/>
 
