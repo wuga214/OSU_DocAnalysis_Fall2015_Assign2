@@ -18,8 +18,3 @@ toLowerCase function just work as its name<br />
 fileoperation/CRFPPWriter has several function can help you write file that CRF++ can accept<br />
 fileoperation/TextDocReader can read article in text file and output a string of content<br />
 fileoperation/TrainingDataReader is helpful when you are trying to modify training data structure. It has for parameters, but only first one is real parameter for input file path. Other three parameters are implicit output.<br />
-
-
-
-
-Good Luck!
