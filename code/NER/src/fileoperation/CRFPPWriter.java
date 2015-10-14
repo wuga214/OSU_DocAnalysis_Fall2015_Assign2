@@ -15,6 +15,7 @@ public class CRFPPWriter {
 			String[] sentence_ners=ners.get(i);
 			for(int j=0; j<sentence_tokens.length;j++)
 			fw.write(sentence_tokens[j]+" "+sentence_caps[j]+" "+sentence_tags[j]+" "+sentence_ners[j]+"\n");
+			fw.write("\n");
 		}
 	 
 		fw.close();
@@ -29,6 +30,7 @@ public class CRFPPWriter {
 			String[] sentence_tag=tags.get(i);
 			for(int j=0; j<sentence_tokens.length;j++)
 			fw.write(sentence_tokens[j]+" "+sentence_caps[j]+" "+sentence_tag[j]+"\n");
+			fw.write("\n");
 		}
 	 
 		fw.close();
@@ -42,6 +44,7 @@ public class CRFPPWriter {
 			String[] sentence_caps=caps.get(i);
 			for(int j=0; j<sentence_tokens.length;j++)
 			fw.write(sentence_tokens[j]+" "+sentence_caps[j]+"\n");
+			fw.write("\n");
 		}
 	 
 		fw.close();
@@ -54,6 +57,7 @@ public class CRFPPWriter {
 			String[] sentence_tokens=tokens.get(i);
 			for(int j=0; j<sentence_tokens.length;j++)
 			fw.write(sentence_tokens[j]+"\n");
+			fw.write("\n");
 		}
 	 
 		fw.close();

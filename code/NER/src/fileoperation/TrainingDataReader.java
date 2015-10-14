@@ -18,28 +18,31 @@ import java.util.ArrayList;
 public class TrainingDataReader {
 
 	
-	public static void read(String file, ArrayList<String[]> tokens, ArrayList<String[]> tags, ArrayList<String[]> ners) throws IOException{
+	public static void read(String file, ArrayList<String[]> tokens, ArrayList<String[]> tags,ArrayList<String[]> unknown, ArrayList<String[]> ners) throws IOException{
 		FileInputStream fstream = new FileInputStream(file);
 		BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
 		String strLine;
 		try {
 			ArrayList<String> sentence_tokens=new ArrayList<String>();
 			ArrayList<String> sentence_tags=new ArrayList<String>();
+			ArrayList<String> sentence_unknown=new ArrayList<String>();
 			ArrayList<String> sentence_ners=new ArrayList<String>();
 			while ((strLine = br.readLine()) != null)   {
 				  if(strLine.isEmpty()){
 					  tokens.add(sentence_tokens.toArray(new String[sentence_tokens.size()]));
 					  tags.add(sentence_tags.toArray(new String[sentence_tags.size()]));
+					  unknown.add(sentence_unknown.toArray(new String[sentence_unknown.size()]));
 					  ners.add(sentence_ners.toArray(new String[sentence_ners.size()]));
 					  sentence_tokens=new ArrayList<String>();
 					  sentence_tags=new ArrayList<String>();
+					  sentence_unknown=new ArrayList<String>();
 					  sentence_ners=new ArrayList<String>();
-					  br.readLine();
 				  }else{
 					  String[] row=strLine.split("\\s+");
 					  sentence_tokens.add(row[0]);
 					  sentence_tags.add(row[1]);
-					  sentence_ners.add(row[2]);
+					  sentence_unknown.add(row[2]);
+					  sentence_ners.add(row[3]);
 				  }
 			}
 		} catch (IOException e) {
