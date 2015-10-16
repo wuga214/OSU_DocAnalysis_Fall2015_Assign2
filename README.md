@@ -12,3 +12,8 @@ Submission:
 ===
 Submit your assignment on [Canvas](https://oregonstate.instructure.com/courses/1577985)
 
+CRF++ OFFICAL DOWNLOAD ADDRESS
+===
+https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&usp=drive_web#list
+<br />
+If you are windows user, it is convenient to use windows executable package. Please download it from above address. Thanks for Michael's reminding.
