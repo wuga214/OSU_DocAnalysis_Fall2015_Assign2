@@ -1,8 +1,8 @@
-$ crf_test -m model_2_3 esp.testa > testa_2_3\
-$ perl conll-eval.pl -d '\\t' < testa_2_3\
-processed 52923 tokens with 4352 phrases; found: 3166 phrases; correct: 2336.\
-accuracy:  93.36%; precision:  73.78%; recall:  53.68%; FB1:  62.14\
-              LOC: precision:  62.66%; recall:  65.58%; FB1:  64.09  1031\
-             MISC: precision:  58.21%; recall:  26.29%; FB1:  36.22  201\
-              ORG: precision:  80.43%; recall:  52.71%; FB1:  63.68  1114\
+$ crf_test -m model_2_3 esp.testa > testa_2_3
+$ perl conll-eval.pl -d '\t' < testa_2_3
+processed 52923 tokens with 4352 phrases; found: 3166 phrases; correct: 2336.
+accuracy:  93.36%; precision:  73.78%; recall:  53.68%; FB1:  62.14
+              LOC: precision:  62.66%; recall:  65.58%; FB1:  64.09  1031
+             MISC: precision:  58.21%; recall:  26.29%; FB1:  36.22  201
+              ORG: precision:  80.43%; recall:  52.71%; FB1:  63.68  1114
               PER: precision:  82.56%; recall:  55.40%; FB1:  66.31  820}
