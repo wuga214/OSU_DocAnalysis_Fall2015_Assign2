@@ -16,3 +16,6 @@ Windows CRF++ Official Binary Downloads
 ===
 Get them [here](https://drive.google.com/folderview?id=0B4y35FiV1wh7fngteFhHQUN2Y1B5eUJBNHZUemJYQV9VWlBUb3JlX0xBdWVZTWtSbVBneU0&usp=drive_web#list)
 
+Important facts:
+===
+1. to add new columns in training data of CONLL2003, note the headline is like: "-DOCSTART- O", you need to add a new symbol ,"-X-", in headline. e.g.: "-DOCSTART- -X- O" for two feature columnS training data.
